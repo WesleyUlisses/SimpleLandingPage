@@ -1,0 +1,278 @@
+/* Global Styles */
+
+* {
+
+    font-family: 'Nunito', sans-serif;
+
+}
+
+/* Header Style */
+
+.header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6rem 6rem 0rem 6rem;
+}
+
+.header>a {
+    margin: 10px 10px 10px 10px;
+    color: #2B2B2B;
+    text-decoration: none;
+    font-size: 1em;
+
+
+    &:hover {
+        color: #121212;
+        text-decoration: none;
+    }
+}
+
+/* Portifolio Style */
+
+.portifolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6rem 6rem 0rem 6rem;
+}
+
+.portifolio-header {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 6rem 0rem 6rem;
+
+}
+
+.presentation-title {
+    font-size: 1.5em;
+    color: #AB3333;
+    align-self: center;
+    margin: 0%;
+}
+
+.presentation-title2 {
+    font-size: 2em;
+    color: #2B2B2B;
+    align-self: center;
+    font-weight: bold;
+    max-width: 590px;
+    text-align: center;
+}
+
+.presentation-title2>span {
+
+    color: #D51C1C;
+
+}
+
+
+/* Resume Styles */
+.resume-top-section {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 6rem 0rem 6rem;
+}
+
+.resume-presentation-title {
+    font-size: 2em;
+    color: #010101;
+    align-self: center;
+    margin: 5% 0% 2% 0%;
+    max-width: 590px;
+    text-align: center;
+    margin: 0% 0% 5% 0%;
+}
+
+.download-button-item {
+    background-color: #2B2B2B;
+    align-self: center;
+    width: 170px;
+    height: 45px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0% 0% 0% 0%;
+}
+
+#Resume {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 0rem 0rem 0rem;
+}
+
+.resume {
+    padding: 0% 10% 0% 10%;
+
+}
+
+.summary {
+    display: flex;
+    flex-direction: row;
+    margin: 10% 0% 5% 0%;
+}
+
+.resume-title-items {
+    font-size: 1.5em;
+    color: #2B2B2B;
+    font-weight: bold;
+    width: 30px;
+    text-align: start;
+    margin: 0% 20% 0% 0%;
+}
+
+.summary-text {
+    width: 600px;
+    text-align: start;
+    margin: 0% 0% 5% 8%;
+    padding: 3% 0% 0% 2%;
+}
+
+/* Work Experience */
+.work-experience {
+    display: flex;
+    flex-direction: row;
+    margin: 10% 0% 5% 0%;
+}
+
+.group-work-experience-items {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 0% 0% 10%;
+
+}
+
+.work-experience-item {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 5% 0% 5% 0%;
+}
+
+.work-experience-tittle {
+    font-size: 1.3em;
+    color: #2B2B2B;
+    font-weight: bold;
+}
+
+.work-experience-tittle>span {
+    color: #D51C1C;
+}
+
+
+.work-experience-time {
+    font-size: 1.2em;
+    color: #2B2B2B;
+    margin: 0%;
+}
+
+.work-experience-job {
+    font-size: 1.4em;
+    color: #2B2B2B;
+    font-weight: lighter;
+}
+
+/* Volunties experience */
+
+.voluntier-experience {
+    display: flex;
+    flex-direction: row;
+    margin: 10% 0% 5% 0%;
+}
+
+.voluntier-experience-item {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 5% 0% 5% 0%;
+}
+
+.voluntier-experience-tittle {
+    font-size: 1.3em;
+    color: #2B2B2B;
+    font-weight: bold;
+}
+
+.voluntier-experience-tittle>span {
+    color: #D51C1C;
+}
+
+.voluntier-experience-time {
+    font-size: 1.2em;
+    color: #2B2B2B;
+    margin: 0%;
+}
+
+.voluntier-experience-job {
+    font-size: 1.4em;
+    color: #2B2B2B;
+    font-weight: lighter;
+}
+
+/* Education */
+.education {
+    display: flex;
+    flex-direction: row;
+    margin: 10% 0% 10% 0%;
+}
+
+.education-item {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 0% 0% 0% 10%;
+}
+
+.education-tittle {
+    font-size: 1.3em;
+    color: #2B2B2B;
+    font-weight: bold;
+    max-width: 400px;
+}
+
+.education-tittle>span {
+    color: #D51C1C;
+}
+
+.education-course {
+    font-size: 1.4em;
+    color: #2B2B2B;
+    font-weight: lighter;
+    margin: 0%;
+}
+
+/* Skills */
+.skills{
+    display: flex;
+    flex-direction: row;
+    margin: 10% 0% 10% 0%;
+}
+
+.skills-table {
+    display: flex;
+    flex-direction: row;
+    margin: 0% 0% 5% 10%;
+}
+
+.skills-item-list {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0% 15% 0% 0%;
+    max-width: 200px;
+}
+
+.skills-item-list > ol{
+    margin: 0%;
+    padding: 0%;
+}
+
+.skills-item-list > ol > li {
+    list-style-type: none;
+}
+
+.download-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
