@@ -183,23 +183,48 @@
 
     <div>
         <section id="Contact">
-            <h1>maito: hello@wesleyulisses.com.br</h1>
+            <h1>maito: <span>wesleyulisses0@gmai.com</span></h1>
             <div class="contact">
-                <h3>let's collaborate</h3>
+                <h3>LET'T COLLABORATE</h3>
                 <div class="contact-form">
                     <form action="">
-                        <input type="text" name="Name">
-                        <input type="text" name="LastName">
-                        <input type="email" name="Email">
-                        <textarea name="text" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                        <button>Send</button>
+                        <div class="contact-form-email">
+                            <label class="forms-title-label" for="contact-form-name">
+                                Name
+                                <div class="contact-form-name">
+                                    <div class="div-input-name">
+                                        <label class="contact-form-name-label" for="Name">First Name</label>
+                                        <input class="input-name" type="text" name="Name">
+                                    </div>
+                                    <div class="div-input-last-name">
+                                        <label class="contact-form-name-label" for="LastName">Last Name</label>
+                                        <input class="input-last-name" type="text" name="LastName">
+                                    </div>
+
+                                </div>
+                            </label>
+
+                            <label class="forms-title-label" for="Email">Email Address<input class="input-email"
+                                    type="email" name="Email"></label>
+                            <label class="forms-title-label" for="text">Message<textarea class="input-text-area"
+                                    name="text" id="" cols="30" rows="10"
+                                    placeholder="Type your massege here"></textarea></label>
+                        </div>
+                        <button class="send-button">Send</button>
                     </form>
                 </div>
             </div>
         </section>
     </div>
 
-    <p>&copy; 2024 WESLEY ULISSES.</p>
+    <footer>
+        <p>&copy; 2024 WESLEY ULISSES.</p>
+        <div>
+            <a target="_blank" href="https://github.com/WesleyUlisses"><img src="./assets/GitHub.svg" alt="GitHub"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/wesleyulisses/"><img src="./assets/LinkedIn.svg" alt="LinkedIn"></a>
+            <a target="_blank" href="mailto:wesleyulisses0@gmail.com"><img src="./assets/Gmail.svg" alt="Gmail"></a>
+        </div>
+    </footer>
 </body>
 
 </html>

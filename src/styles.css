@@ -276,3 +276,133 @@
     flex-direction: column;
     align-items: center;
 }
+
+/* Contact */
+#Contact {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 6rem 0rem 6rem;
+}
+
+#Contact > h1 {
+    font-size: 1.8em;
+    color: #2B2B2B;
+    align-self: center;
+    margin: 0% 0% 5% 0%;
+}
+
+#Contact > h1 > span {
+    color: #D51C1C;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact > h3 {
+    font-size: 1em;
+    color: #2B2B2B;
+    align-self: start;
+    width: 160px;
+    margin: 0% 10% 0% 10%;
+}
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
+    max-width: 100%;
+}
+
+.contact-form-name {
+    display: flex;
+    flex-direction: row;
+    padding: 0% 0% 0% 0%;
+    grid-gap: 1%;
+}
+
+.div-input-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-input-last-name {
+    display: flex;
+    flex-direction: column;
+}
+.input-name {
+    width: 355px;
+    height: 30px;
+    margin: 0% 0% 0% 0%;
+}
+
+.input-last-name {
+    width: 355px;
+    height: 30px;
+}
+
+.contact-form-email {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+}
+
+.input-email {
+    width: 100%;
+    height: 30px;
+}
+
+.input-text-area {
+    width: 100%;
+    height: 100px;
+}
+
+.forms-title-label {
+    font-size: 1em;
+    color: #2B2B2B;
+    margin: 0% 0% 5% 0%;
+}
+.contact-form-name-label{
+    font-size: 0.6em;
+    color: #2B2B2B;
+    margin: 0% 0% 0% 0%;
+
+}
+.send-button {
+    background-color: #2B2B2B;
+    width: 85px;
+    height: 45px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0% 0% 0% 0%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding: 6rem 6rem 6rem 6rem;
+}
+
+footer > p {
+    font-size: 1em;
+    color: #2B2B2B;
+    margin: 0% 0% 0% 0%;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: row;
+}
+
+footer > div > a {
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+
+    &:hover {
+        color: #121212;
+    }
+}
